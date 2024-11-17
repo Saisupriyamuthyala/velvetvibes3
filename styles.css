@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #734f96;
+    color: white;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  h2 {
+    color: #734f96;
+    margin-bottom: 1rem;
+  }
+  
+  section {
+    padding: 2rem;
+    margin: 1rem auto;
+    background-color: white;
+    border-radius: 8px;
+    max-width: 800px;
+  }
+  
+  /* Carousel Styles */
+  .carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-images {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+  }
+  
+  .carousel-item {
+    display: none;
+    flex-shrink: 0;
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .carousel-description {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #734f96;
+  }
+  
+  button.prev,
+  button.next {
+    background-color: #734f96;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button.prev:hover,
+  button.next:hover {
+    background-color: #734f96;
+  }
+  
+  /* Tips Section */
+  .tip-display {
+    margin-top: 1rem;
+  }
+  
+  .tip-display p {
+    font-size: 1.2rem;
+    color: #734f96;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #734f96;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  button:hover {
+    background-color: #9370DB;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #734f96;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+/* Quiz Section */
+#quiz-container {
+    margin-top: 1rem;
+    text-align: left;
+  }
+  
+  #quiz-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #734f96;
+  }
+  
+  #quiz-options {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #quiz-options li {
+    margin-bottom: 0.5rem;
+  }
+  
+  #quiz-options button {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    background-color: #734f96;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #quiz-options button:hover {
+    background-color: #734f96;
+  }
+  
+  #quiz-result {
+    margin-top: 1rem;
+    color: #4B0082;
+  }
+  
+  #quiz-score {
+    font-weight: bold;
+  }
+    
